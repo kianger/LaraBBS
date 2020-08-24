@@ -114,6 +114,7 @@
       <path value="$PROJECT_DIR$/vendor/symfony/deprecation-contracts" />
       <path value="$PROJECT_DIR$/vendor/symfony/routing" />
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/vendor/laravel/ui" />
     </include_path>
   </component>
   <component name="ProjectId" id="1gXPLbXutsOaYlUq9SvHaiEZqz0" />
@@ -141,7 +142,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1598257908243</updated>
-      <workItem from="1598257909369" duration="960000" />
+      <workItem from="1598257909369" duration="2277000" />
     </task>
     <servers />
   </component>
@@ -153,5 +154,9 @@
       <screen x="0" y="28" width="1920" height="1052" />
     </state>
     <state x="773" y="438" width="363" height="228" key="#Composer/0.28.1920.1052@0.28.1920.1052" timestamp="1598257933918" />
+    <state x="794" y="477" width="291" height="150" key="NewPhpFileDialog" timestamp="1598259404335">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state x="794" y="477" width="291" height="150" key="NewPhpFileDialog/0.28.1920.1052@0.28.1920.1052" timestamp="1598259404335" />
   </component>
 </project>
