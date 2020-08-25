@@ -68,4 +68,15 @@ class User extends Authenticatable implements MustVerifyEmailContract
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+    /**
+     * Avatar头像
+     * @param int $size
+     * @return string
+     */
+    public function gravatar($size = 100)
+    {
+        $hash = md5(strtolower(trim($this->attributes['email'])));
+        return "Http://www.gravatar.com/avatar/$hash?s=$size";
+    }
 }
