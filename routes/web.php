@@ -38,3 +38,6 @@ Route::post('email/resend', 'Auth\VerificationController@resend')->name('verific
 
 // 个人页面
 Route::resource('users', 'UsersController', ['only' => ['show', 'edit', 'update']]);
+
+// 帖子（话题）
+Route::resource('topics', 'TopicsController', ['only' => ['index', 'show', 'create', 'store', 'update', 'edit', 'destroy']]);
