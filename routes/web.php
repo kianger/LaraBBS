@@ -41,3 +41,6 @@ Route::resource('users', 'UsersController', ['only' => ['show', 'edit', 'update'
 
 // 帖子（话题）
 Route::resource('topics', 'TopicsController', ['only' => ['index', 'show', 'create', 'store', 'update', 'edit', 'destroy']]);
+
+// 根据分类列表话题
+Route::resource('categories', 'CategoriesController', ['only' => ['show']]);
