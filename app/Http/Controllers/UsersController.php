@@ -23,7 +23,7 @@ class UsersController extends Controller
         $data = $request->all();
 
         if ($request->avatar) {
-            $result = $upload->save($request->avatar, 'avatars', $user->id);
+            $result = $upload->save($request->avatar, 'avatars', $user->id, 416);
             // 文件后缀符合条件
             if ($result) {
                 $data['avatar'] = $result['path'];
