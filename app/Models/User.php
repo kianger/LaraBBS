@@ -37,6 +37,10 @@ use Illuminate\Auth\MustVerifyEmail as MustVerifyEmailTrait;
  * @method static Builder|User whereRememberToken($value)
  * @method static Builder|User whereUpdatedAt($value)
  * @mixin Eloquent
+ * @property string|null $avatar
+ * @property string|null $introduction
+ * @method static Builder|User whereAvatar($value)
+ * @method static Builder|User whereIntroduction($value)
  */
 class User extends Authenticatable implements MustVerifyEmailContract
 {
