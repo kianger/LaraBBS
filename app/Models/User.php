@@ -83,4 +83,9 @@ class User extends Authenticatable implements MustVerifyEmailContract
         $hash = md5(strtolower(trim($this->attributes['email'])));
         return "Http://www.gravatar.com/avatar/$hash?s=$size";
     }
+
+    public function topics()
+    {
+        return $this->hasMany(Topic::class);
+    }
 }
